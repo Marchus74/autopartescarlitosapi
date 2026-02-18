@@ -1,7 +1,7 @@
 import type { AutopartInterface } from "../../interfaces/autopartinterface";
 
 // Los componentes React siempre en PascalCase y con nombres claros.
-const AutopartArticle = ({ id, name, price, stock, imagen,categoria }: AutopartInterface) => {
+const AutopartArticle = ({ name, price, stock, imagen,categoria }: AutopartInterface) => {
   return (
     <article className="bg-white shadow-lg rounded-xl p-6 max-w-md mx-auto hover:shadow-xl transition-shadow duration-300">
       <img
