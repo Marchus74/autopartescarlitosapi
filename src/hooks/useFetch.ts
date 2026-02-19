@@ -1,7 +1,7 @@
 import axios from "axios"
 import { useState, useEffect } from "react"
 
-const API_URL = "http://127.0.0.1:8000"
+const API_URL = "http://server-new.myddns.me"
 
 interface UseFetchResult<T> {
   data: T | null
