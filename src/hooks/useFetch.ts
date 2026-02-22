@@ -1,7 +1,7 @@
 import axios from "axios"
 import { useState, useEffect } from "react"
 
-const API_URL = "https://marcelo.cpss.mywire.org/"
+const API_URL = "https://marcelo.cpss.mywire.org"
 
 interface UseFetchResult<T> {
   data: T | null
